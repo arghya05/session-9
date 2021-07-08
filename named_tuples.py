@@ -210,7 +210,7 @@ def stock_market(comp_stock:namedtuple ,norm_weights: namedtuple)->namedtuple:
     norm_weights: Tuple containing the normalized weights used to generated the 
                   which will be used to calculate the high, open, close and low.
   
-  # Returns:
+  # Returns :
     It returns a Named tuple containing the stocks value of all 100 companies.
   """
   for _ in range(99):
